@@ -1,5 +1,87 @@
+#root {
+  background-color: #243665;
+  padding: 2% 7%;
+}
+
 .App {
   text-align: center;
+  height: 90vh;
+  border: 2px solid #8bd8bd;
+  background-color: white;
+}
+
+.display {
+  border: 1.5px solid #243665;
+  margin: 15px;
+  background-color: white;
+}
+
+.nme {
+  width: 40%;
+  border: 1px solid white;
+  float: left;
+  padding: 11px;
+  margin: 3px;
+  color: #243665;
+  background-color: #8bd8bd;
+}
+
+.phno {
+  margin-left: 40%;
+  border: 1px solid white;
+  padding: 11px;
+  margin: 3px;
+}
+
+.del-btn {
+  float: right;
+  margin: -11px;
+  padding: 12.5px;
+  background-color: #defff3;
+  border: 0px;
+  cursor: pointer;
+  color: #243665;
+}
+
+.add-btn {
+  margin: -11px;
+  padding: 12.5px;
+  background-color: #8bd8bd;
+  border: 0px;
+  cursor: pointer;
+  color: white;
+  border-radius: 2px;
+  font-size: 18px; 
+}
+
+.emptdir {
+  margin: 10px;
+}
+
+.empt-img {
+  height: 80px;
+  width: 80px;
+}
+
+.subscriber {
+  border: 2px solid #8bd8bd;
+  margin: 6px 15px;
+  padding: 1px;
+  background-color: #243665;
+  color: white;
+}
+
+.subscriber1 {
+  border: 1px solid #243665;
+  background-color: #243665;
+  color: white;
+}
+
+.profile-img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 1px 11px;
 }
 
 .App-logo {
@@ -8,15 +90,43 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#head {
+  padding: 12px;
+  background-color: #8bd8bd;
   color: white;
+  margin: 0px;
+}
+
+#sub-form {
+  text-align: left;
+  margin: 3%;
+  border: 3px solid #8bd8bd;
+  width: 50%;
+  padding: 2%;
+  background-color: #243665f2;
+  color: white;  
+}
+
+.usr-input {
+  height: 35px;
+  width: 75%;
+  border-radius: 3px;
+  border: 2px solid #8bd8bd;
+  margin: 1%;
+  font-size: 20px;
+  padding: 0px 10px; 
+}
+
+.bla1 {
+  margin: 4px;
+}
+
+.bla2 {
+  margin: 5px;
+}
+
+.label {
+
 }
 
 .App-link {
